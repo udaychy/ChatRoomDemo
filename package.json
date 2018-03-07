@@ -5,7 +5,7 @@
   "main": "JsStore-1.2.7.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"http-server && json-server --watch db.json"
+    "start": "concurrently --kill-others \"http-server\" \"json-server --watch db.json\""
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/udaychy/ChatRoomDemo#readme",
   "devDependencies": {
+    "concurrently": "^3.5.1",
     "http-server": "^0.11.1",
-    "jsstore": "^1.6.3",
-    "json-server": "^0.12.1"
+    "json-server": "^0.12.1",
+    "jsstore": "^1.6.3"
   }
 }

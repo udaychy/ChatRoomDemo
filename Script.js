@@ -54,7 +54,7 @@ db.connect = function (database) {
             }
         }).
         catch(function (err) {
-            alert(err.Message);
+            alert(err._message);
             console.log(err);
         });
 }

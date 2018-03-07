@@ -21,7 +21,7 @@ It provides API for CURD operation on any json file(say db.json) which contains 
 
 ### 1. Install node.js
 
-If node.js is not installed in your system then you can get it from [here](l_nodejs).
+If node.js is not installed in your system then you can get it from [here][l_nodejs].
 	
 ### 2. Install json-server
 Open the Node.js command prompt and enter the command below

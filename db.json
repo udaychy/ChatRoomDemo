@@ -1,0 +1,15 @@
+{
+  "messages": [
+    {
+      "body": "Welcome",
+      "msgBy": "uday",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "userName": "uday",
+      "id": 1
+    }
+  ]
+}

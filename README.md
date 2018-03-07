@@ -11,20 +11,20 @@ new messages are fetched from the server whenever user goes online or server sta
 
 Two new things are introduced in this demo which you should know:
 
-	* JsStore:
-	Wrapper of indexedDB which provides useful API for CURD operations on indexedDB
+* [JsStore][l_jsstore]:
+Wrapper of indexedDB which provides useful API for CURD operations on indexedDB
 
-	* json-server:
-	It provides API for CURD operation on any json file(say db.json) which contains the data(like a Database) It run on node.js.
+* [Json-server][l_jsonserver]:
+It provides API for CURD operation on any json file(say db.json) which contains the data(like a Database) It run on node.js.
 
 ## Installation
 
 ### 1. Install node.js
 
-	If node.js is not installed in your system then you can get it from [here](http://nodejs.org/en/download).
+If node.js is not installed in your system then you can get it from [here](l_nodejs).
 	
-### 2. Install [json-server](l_jsonserver)
-	Open the Node.js command prompt and enter the command below
+### 2. Install json-server
+Open the Node.js command prompt and enter the command below
 	
 ```bash
 $ npm install -g json-server
@@ -34,9 +34,7 @@ $ npm install -g json-server
 
 ### 4. Start the json-server
 
-	Open the Node.js command prompt and go to the directory(ChatRoomDemo) which contains the 
-	db.json file.
-	Once you are pointing to the ChatRoomDemo directory in Node.js command prompt, enter the command below
+Open the Node.js command prompt and go to the directory(ChatRoomDemo) which contains the `db.json` file. Once you are pointing to the ChatRoomDemo directory in Node.js command prompt, enter the command below
 	
 ```bash
 $ json-server --watch db.json
@@ -44,7 +42,7 @@ $ json-server --watch db.json
 	
 ## Ready to go
 
-You are now ready to open the index.html file (inside your ChatRoomDemo directory)
+You are now ready to open the index.html file (inside your ChatRoomDemo directory).
 You can start playing with the demo by turning the json-server ON *(Installation step 4)* and OFF *(CTRL + C)*
 	
 	

@@ -46,7 +46,7 @@ $ npm start
 ## Ready to go
 
 The site will be hosted at  http://localhost:8080.
-Now you can start playing with this demo by going offline and online from the 'Network' tab of Browser console
+Now you can start playing with this demo by going offline and online from the `Network` tab of Browser console
 	
 	
 [l_nodejs]: <https://nodejs.org/en/download>

@@ -23,28 +23,29 @@ It provides API for CURD operation on any json file(say db.json) which contains 
 
 If node.js is not installed in your system then you can get it from [here][l_nodejs].
 	
-### 2. Install json-server
+### 2. Clone/download the ChatRoomDemo
+
+### 3. Install Package
 Open the Node.js command prompt and enter the command below
 	
 ```bash
-$ npm install -g json-server
+$ npm install 
 ```
 
-### 3. Clone/download the ChatRoomDemo
+This command will install the required modules for this demo.
 
-### 4. Start the json-server
+### 4. Start the json-server and http-server
 
 Open the Node.js command prompt and go to the directory(ChatRoomDemo) which contains the `db.json` file. Once you are pointing to the ChatRoomDemo directory in Node.js command prompt, enter the command below
 	
 ```bash
-$ json-server --watch db.json
+$ npm start
 ```
 	
 ## Ready to go
 
-You are now ready to open the index.html file (inside your ChatRoomDemo directory).
-You can start playing with the demo by turning the json-server ON *(Installation step 4)* and OFF *(CTRL + C)*
-	
+The site will be hosted at  http://localhost:8080.
+Now you can start playing with this demo by going offline and online from the 'Network' tab of Browser console
 	
 	
 [l_nodejs]: <https://nodejs.org/en/download>

@@ -26,7 +26,7 @@ If node.js is not installed in your system then you can get it from [here][l_nod
 ### 2. Clone/download the ChatRoomDemo
 
 ### 3. Install Package
-Open the Node.js command prompt and go to the directory(ChatRoomDemo) which contains 'package.json' file
+Open the Node.js command prompt and go to the directory(ChatRoomDemo) which contains `package.json` file
  then enter the command below
 	
 ```bash

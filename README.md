@@ -12,10 +12,10 @@ new messages are fetched from the server whenever user goes online or server sta
 Two new things are introduced in this demo which you should know:
 
 * [JsStore][l_jsstore]:
-Wrapper of indexedDB which provides useful API for CURD operations on indexedDB
+It is an IndexedDB Wrapper. It makes IndexedDB super easy with its SQL like apis.
 
 * [Json-server][l_jsonserver]:
-It provides API for CURD operation on any json file(say db.json) which contains the data(like a Database) It run on node.js.
+It provides API for CRUD operation on any json file(say db.json) which contains the data(like a Database) It run on node.js.
 
 ## Installation
 
